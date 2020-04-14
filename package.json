@@ -4,7 +4,8 @@
   "description": "This is ITDV student",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "gump"
   },
   "repository": {
     "type": "git",
@@ -25,5 +26,9 @@
     "gulp-sass": "^4.0.2",
     "gulp.spritesmith": "^6.11.0",
     "rimraf": "^3.0.2"
+  },
+  "dependencies": {
+    "font-awesome": "^4.7.0",
+    "normalize.scss": "^0.1.0"
   }
 }

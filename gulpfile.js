@@ -21,7 +21,7 @@ gulp.task('server', function() {
 
 //компиляция шаблонов
 gulp.task('templates:compile', function buildHTML() {
-    return gulp.src('source/templates//index.pug')
+    return gulp.src('source/templates/index.pug')
         .pipe(pug({
             pretty: true
         }))
